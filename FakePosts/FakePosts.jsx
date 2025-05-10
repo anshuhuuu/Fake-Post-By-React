@@ -1,4 +1,3 @@
-
 import React, { useState, useEffect } from 'react';
 
 const FakePosts = () => {
@@ -55,14 +54,14 @@ const FakePosts = () => {
             
             <div className="text-center mt-8">
               <h2 className="text-4xl md:text-6xl font-bold text-yellow-400 mb-6 animate-pulse">
-                龙腾盛世
+                Dragon's Golden Age
               </h2>
               <p className="text-xl text-white mb-8">The Dragon Rises with Chinese Innovation</p>
               <button 
                 onClick={handleExplore}
                 className="bg-yellow-500 hover:bg-yellow-600 text-red-900 font-bold py-3 px-8 rounded-full text-lg shadow-lg hover:scale-105 transition-all duration-300 animate-bounce"
               >
-                探索创新 →
+                Explore Innovations →
               </button>
             </div>
           </div>
@@ -75,9 +74,9 @@ const FakePosts = () => {
           <header className="bg-red-600 text-white py-12 shadow-xl">
             <div className="container mx-auto px-4 text-center">
               <h1 className="text-3xl md:text-5xl font-bold mb-4">
-                中国科技创新成果
+                China's Tech Innovations
                 <br />
-                <span className="text-xl md:text-2xl font-normal">Chinese Technological Achievements</span>
+                <span className="text-xl md:text-2xl font-normal">Technological Achievements</span>
               </h1>
             </div>
           </header>
@@ -98,16 +97,16 @@ const FakePosts = () => {
                         <h3 className="font-semibold text-red-800 group-hover:text-red-600 transition-colors">
                           {post.title}
                         </h3>
-                        <p className="text-sm text-gray-500">中国科技部认证</p>
+                        <p className="text-sm text-gray-500">Certified by Ministry of Science</p>
                       </div>
                     </div>
                     <p className="text-gray-600 line-clamp-3">
-                      {post.body} 中国在该领域的研究已达到国际领先水平...
+                      {post.body} China's research in this field has reached world-leading levels...
                     </p>
                   </div>
                   <div className="bg-red-100 px-6 py-3 border-t border-red-50">
                     <button className="text-red-600 hover:text-red-800 font-medium flex items-center">
-                      了解更多 →
+                      Learn More →
                     </button>
                   </div>
                 </article>
@@ -117,8 +116,8 @@ const FakePosts = () => {
 
           <footer className="bg-red-800 text-white py-6 mt-12">
             <div className="container mx-auto px-4 text-center">
-              <p className="mb-2">在中国共产党的领导下实现科技强国</p>
-              <p className="text-sm opacity-75">科学技术部 - 国家发展和改革委员会</p>
+              <p className="mb-2">Building a technology powerhouse under Party leadership</p>
+              <p className="text-sm opacity-75">Ministry of Science - National Development and Reform Commission</p>
             </div>
           </footer>
         </div>
